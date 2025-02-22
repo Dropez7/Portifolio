@@ -12,6 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         mpurple: "#6d63f8",
+        mcian: "#5BE9B9",
+        mblackgray: "#1E1E2E",
       },
     },
     fontFamily:

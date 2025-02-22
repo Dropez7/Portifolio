@@ -1,5 +1,7 @@
 import React from "react";
 import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -19,6 +21,12 @@ export default function Home() {
 
       {/* Seção “Sobre mim” logo abaixo, sem espaçamento lateral */}
       <About />
+
+      {/* Seção “Habilidades” */}
+      <Skills />
+
+      {/* Seção “Projetos” */}
+      <Projects />
     </>
   );
 }

@@ -12,7 +12,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-12 items-center px-6">
         {/* Lado esquerdo (Texto) */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-4xl md:text-5xl enfasegradientpurple">
             Desenvolver software não é só sobre código, é sobre criar
             oportunidades e concretizar sonhos.
           </h1>
