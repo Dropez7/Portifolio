@@ -1,12 +1,24 @@
+import React from "react";
+import About from "../components/About";
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <h1 className=" text-8xl font-mono">Home</h1>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        
-      </footer>
-    </div>
+    <>
+      {/* Seção “hero” que ocupa a tela toda */}
+      <section className="flex flex-col items-center pt-48 w-full h-screen relative z-10">
+        <img
+          src="/images/PedroH.png"
+          alt="Foto de Pedro Henrique"
+          className="w-52 h-52 rounded-full mx-auto mb-6 shadow-lg transition-transform duration-300 hover:scale-110"
+        />
+        <h1 className="text-8xl font-mono text-white">Pedro Henrique</h1>
+        <h2 className="text-4xl font-mono text-white">
+          Desenvolvedor Full Stack
+        </h2>
+      </section>
+
+      {/* Seção “Sobre mim” logo abaixo, sem espaçamento lateral */}
+      <About />
+    </>
   );
 }

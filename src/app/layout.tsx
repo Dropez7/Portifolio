@@ -1,3 +1,5 @@
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -16,8 +18,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="pt-br">
-      <body className="font-sans text-gray-900 bg-gray-100">
-        {children}
+      <body className="font-sans text-gray-900 bg-gray-900 flex flex-col">
+        <main className="backintroduction flex-grow">
+        <Header />
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

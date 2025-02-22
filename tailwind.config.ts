@@ -11,8 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mpurple: "#6d63f8",
       },
     },
+    fontFamily:
+      {
+        sans: ["Inter", "sans-serif"],
+        mono: ['"JetBrains Mono"', 'monospace'],
+      },
   },
   plugins: [],
 } satisfies Config;
