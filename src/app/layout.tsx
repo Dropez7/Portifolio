@@ -1,4 +1,3 @@
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import type { Metadata } from "next";
 import "./globals.css";
@@ -19,8 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="pt-br">
       <body className="font-sans text-gray-900 bg-gray-900 flex flex-col">
-        <main className="backintroduction flex-grow">
-        <Header />
+        <main className="flex-grow">
           {children}
         </main>
         <Footer />
