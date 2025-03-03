@@ -33,7 +33,7 @@ const Projects = () => {
                 width={400}
                 height={200}
                 alt="Smart Campus"
-                className="rounded-t-lg mb-8 h-60"
+                className="rounded-t-lg mb-8 h-60 w-full object-cover"
               />
 
               <h3 className="text-4xl font-semibold text-cyan-400">
@@ -76,7 +76,7 @@ const Projects = () => {
                 width={400}
                 height={200}
                 alt="Consumer API"
-                className="rounded-t-lg mb-8 h-60"
+                className="rounded-t-lg mb-8 h-60 w-full object-cover"
               />
               <h3 className="text-4xl font-semibold text-cyan-400">
                 React Web API Consumer
@@ -94,12 +94,15 @@ const Projects = () => {
                 <SiAxios className="text-gray-500" />
                 <FaGithub className="text-white" />
               </div>
+              <div className="flex flex-col justify-center items-center my-6">
+
               <a
                 href="https://github.com/Dropez7/React-SIMPLE-API-Consumer/tree/main"
                 className="text-purple-500 mt-4 inline-block hover:underline"
               >
                 Ver mais
               </a>
+              </div>
             </div>
             {/* Card 3 */}
             <div className="bg-[#13132A] rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105">
@@ -108,7 +111,7 @@ const Projects = () => {
                 width={400}
                 height={200}
                 alt="API RESTful"
-                className="rounded-t-lg mb-8 h-60"
+                className="rounded-t-lg mb-8 h-60 w-full object-cover"
               />
               <h3 className="text-4xl font-semibold text-cyan-400">
                 RESTfull API Implementation

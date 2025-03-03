@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         {/* Lado direito (Ícones e imagens) */}
-        <div className="flex flex-col items-center space-y-6">
+        <div className="md:flex flex-col items-center space-y-6 hidden">
           {/* Ícones representando habilidades */}
           <div className="grid grid-cols-3 gap-6">
             <div className="flex flex-col items-center">
