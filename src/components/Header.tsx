@@ -1,43 +1,47 @@
 import React from "react";
 
 export default function Header() {
+    const handleScroll = (id: string) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <header className="w-full py-4 relative z-10 text-white">
             <div className="max-w-screen-lg mx-auto flex justify-between items-center px-6">
-                <h1 className="text-xl md:text-base font-bold">Pedro H. S.</h1>
+                <h1
+                    className="text-xl md:text-base font-bold"
+                    onClick={() => handleScroll("hero")}
+                >
+                    Pedro H. S.
+                </h1>
                 <nav className="hidden md:block">
                     <ul className="flex space-x-6 flex-wrap">
                         <li>
-                            <a
-                                href="#"
-                                className="hover:text-gray-400 text-sm md:text-base"
-                            >
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="about"
+                            <button
+                                onClick={() => handleScroll("about")}
                                 className="hover:text-gray-400 text-sm md:text-base"
                             >
                                 Sobre
-                            </a>
+                            </button>
                         </li>
                         <li>
-                            <a
-                                href="projects"
+                            <button
+                                onClick={() => handleScroll("projects")}
                                 className="hover:text-gray-400 text-sm md:text-base"
                             >
                                 Projetos
-                            </a>
+                            </button>
                         </li>
                         <li>
-                            <a
-                                href="#"
+                            <button
+                                onClick={() => handleScroll("contact")}
                                 className="hover:text-gray-400 text-sm md:text-base"
                             >
                                 Contato
-                            </a>
+                            </button>
                         </li>
                     </ul>
                 </nav>
