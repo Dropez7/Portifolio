@@ -8,32 +8,34 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 
 export default function Home() {
-  return (
-    <>
-      <div className="h-screen w-full backintroduction" id="hero">
-        <Header />
-        <Hero />
-      </div>
+    return (
+        <>
 
-      {/* Seção “Sobre mim” */}
-      <div id="about">
-      <About />
-      </div>
+            {/* Seção “Hero” */}
+            <div className="h-screen w-full backintroduction" id="hero">
+                <Header />
+                <Hero />
+            </div>
 
-      {/* Seção “Habilidades” */}
-      <div id="skills">
-      <Skills />
-      </div>
+            {/* Seção “Sobre mim” */}
+            <div id="about">
+                <About />
+            </div>
 
-      {/* Seção “Projetos” */}
-      <div id="projects-all">
-      <Projects />
-      </div>
+            {/* Seção “Habilidades” */}
+            <div id="skills">
+                <Skills />
+            </div>
 
-      {/* Seção “Contato” */}
-      <div id="contact">
-      <Contact />
-      </div>
-    </>
-  );
+            {/* Seção “Projetos” */}
+            <div id="projects-all">
+                <Projects />
+            </div>
+
+            {/* Seção “Contato” */}
+            <div id="contact">
+                <Contact />
+            </div>
+        </>
+    );
 }

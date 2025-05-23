@@ -27,9 +27,17 @@ export default function Header() {
                                 Sobre
                             </button>
                         </li>
+                         <li>
+                            <button
+                                onClick={() => handleScroll("skills")}
+                                className="hover:text-gray-400 text-sm md:text-base"
+                            >
+                                Skills
+                            </button>
+                        </li>
                         <li>
                             <button
-                                onClick={() => handleScroll("projects")}
+                                onClick={() => handleScroll("projects-all")}
                                 className="hover:text-gray-400 text-sm md:text-base"
                             >
                                 Projetos

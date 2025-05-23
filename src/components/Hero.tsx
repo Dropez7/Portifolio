@@ -1,7 +1,8 @@
+import React from "react";
 import Image from "next/image";
 
-
 export default function Hero() {
+
     return (
         <section className="flex flex-col items-center justify-center min-h-screen w-full">
             <div className="relative z-10 text-center">
@@ -17,7 +18,7 @@ export default function Hero() {
                     Pedro Henrique
                 </h1>
                 <h2 className="md:text-4xl text-xl font-mono text-white">
-                    Desenvolvedor Full Stack
+                    Desenvolvedor FullStack
                 </h2>
             </div>
         </section>
