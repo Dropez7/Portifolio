@@ -107,7 +107,7 @@ const Contact = () => {
                             <FaGithub size={30} />
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/pedro-henrique-silva-337667338/"
+                            href="https://www.linkedin.com/in/pedrohenriquesilvaalbuquerque/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white hover:text-mcian transition"

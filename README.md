@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio Pessoal - Pedro Henrique Silva
 
-## Getting Started
+Bem-vindo ao repositório do meu portfólio pessoal. Este projeto é a minha vitrine digital como Desenvolvedor FullStack, um espaço onde demonstro minhas habilidades, projetos e minha filosofia de trabalho.
 
-First, run the development server:
+O site foi construído como uma *single-page application* (SPA) moderna e responsiva, utilizando Next.js 15 e React 19, e está hospedado na Vercel.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👨‍💻 Sobre Mim
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sou um desenvolvedor full-stack apaixonado por tecnologia e inovação. Minha filosofia é que "desenvolver software não é só sobre código, é sobre criar oportunidades e concretizar sonhos".
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Com uma base sólida em Ciência da Computação, meu foco é utilizar tecnologias modernas para criar experiências digitais que conectam pessoas e ideias. Meu objetivo é criar softwares que simplificam processos, conectam pessoas e tornam o dia a dia mais eficiente.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Meu Stack de Tecnologias
 
-## Learn More
+Tenho experiência em uma gama diversificada de tecnologias que cobrem todo o ciclo de desenvolvimento web:
 
-To learn more about Next.js, take a look at the following resources:
+* **Front-End:**
+    * React (com React 19)
+    * Next.js (com App Router)
+    * TypeScript
+    * Tailwind CSS
+    * HTML5 / CSS3
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Back-End:**
+    * **Node.js:** Experiência com **Adonis.js** e **Express**.
+    * **Go (Golang):** Desenvolvimento de APIs de alta performance.
+    * **Bancos de Dados:** MySQL e experiência com modelagem de dados.
+    * **Python:** Conhecimento na linguagem para scripts e automação.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Segurança & Identidade:**
+    * IAM (Gerenciamento de Identidade e Acesso)
+    * SSO (Single Sign-On)
+    * Autenticação e Autorização (APIs RESTful)
 
-## Deploy on Vercel
+## ✨ Seções do Portfólio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O site é uma página única que guia o visitante através das seguintes seções:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Hero:** Minha apresentação principal com foto de perfil e um fundo animado.
+2.  **Sobre:** Detalhes sobre minha trajetória, formação e motivações.
+3.  **Skills:** Uma visão geral das tecnologias que domino e utilizo em meus projetos.
+4.  **Projetos:** Uma galeria dos meus trabalhos mais relevantes, incluindo o "Smart Campus" (agendamento de laboratório), um consumidor de API em React e uma API RESTful.
+5.  **Contato:** Um formulário de contato funcional para quem desejar falar comigo, além dos links para minhas redes
+
+## 📬 Contato
+
+Vamos nos conectar! Você pode me encontrar e acompanhar meus trabalhos nas seguintes plataformas:
+
+* **LinkedIn:** `https://www.linkedin.com/in/pedrohenriquesilvaalbuquerque/`
+* **GitHub:** `https://github.com/Dropez7`
