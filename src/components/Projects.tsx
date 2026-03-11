@@ -86,10 +86,10 @@ const Projects = () => {
                                 <h3 className="text-4xl font-semibold text-cyan-400">
                                     React Web API Consumer
                                 </h3>
-                                <p className="text-gray-300 mt-2">
+                                <p className="text-gray-300 mt-2 px-8">
                                     Projeto desenvolvido em React para consumir
                                     APIs RESTfull criada por mim de forma
-                                    simples e eficiente. A aplicação permite a
+                                    simples. A aplicação permite a
                                     interação com dados externos de maneira
                                     dinâmica e moderna.
                                 </p>
@@ -141,6 +141,43 @@ const Projects = () => {
                                     </a>
                                 </div>
                             </div>
+
+                            {/* Card 4 - Novo Projeto WebMerce */}
+                            <div className="bg-[#13132A] rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105">
+                                <Image
+                                    src="/images/webmerce.png" 
+                                    width={400}
+                                    height={200}
+                                    alt="Head Bangers Store"
+                                    className="rounded-t-lg mb-8 h-60 w-full object-cover"
+                                />
+
+                                <h3 className="text-4xl font-semibold text-cyan-400 px-8">
+                                    Head Bangers Store
+                                </h3>
+                                <p className="text-gray-300 mt-2 px-8">
+                                    E-commerce full-stack focado em produtos de rock, desenvolvido com AdonisJS. 
+                                    Conta com autenticação de usuários, carrinho de compras, sistema de checkout e painel administrativo para gestão de estoque.
+                                </p>
+                                <div className="flex justify-center items-center space-x-4 mt-4 text-2xl">
+                                    <FaHtml5 className="text-blue-500" />
+                                    <FaCss3 className="text-yellow-500" />
+                                    <FaJsSquare className="text-yellow-500" />
+                                    <FaNodeJs className="text-green-500" />
+                                    <FaDatabase className="text-indigo-500" />
+                                    <FaGithub className="text-white" />
+                                </div>
+
+                                <div className="flex flex-col justify-center items-center my-6">                                    
+                                    <a
+                                        href="https://github.com/Dropez7/webmerce"
+                                        className="text-purple-500 mt-4 inline-block hover:underline"
+                                    >
+                                        Ver mais
+                                    </a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
